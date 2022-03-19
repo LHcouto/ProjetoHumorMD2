@@ -34,6 +34,8 @@ h2{
     max-width: 400rem;
     margin-left: 25%;
     margin-right: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     padding: 2rem;
     border-radius: 3rem;
     text-align: justify;
@@ -44,19 +46,26 @@ h2{
 }
 
 .btn{
-    align-items: center;
-    padding: 2%;
-    width: 10%;
-    color: aliceblue;
-    background-color: rgb(117, 9, 144);
-    border: solid 0.5rem rgb(2, 6, 54) ;
-    border-radius: 3rem;
+    background-color: rgb(69, 59, 211);
+    max-width: 100rem;
     margin-left: 45%;
-    margin-right: 55%;
-    text-align: center;
+    margin-right: 45%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: justify;
+    align-content: center;
+    flex-direction: row;
+    justify-content:space-around ;
+    color: aliceblue;
     user-select: none;
     cursor:pointer;
-    
+    color: aliceblue;
+    background-color: rgb(117, 9, 144);
+    border: solid 0.2rem rgb(2, 6, 54) ;
+    align-items: center;
+    text-align: center;
 }
 
 .btn:hover{
