@@ -38,7 +38,7 @@ h2{
     margin-bottom: 2%;
     padding: 2rem;
     border-radius: 3rem;
-    text-align: center;
+    text-align: start;
     align-content: center;
     flex-direction: row;
     justify-content:space-around ;
@@ -66,6 +66,7 @@ h2{
     border: solid 0.2rem rgb(2, 6, 54) ;
     align-items: center;
     text-align: center;
+    transition: background 1s ;
 }
 
 .btn:hover{
