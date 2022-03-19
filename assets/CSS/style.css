@@ -31,10 +31,10 @@ h2{
 
 .card{
     background-color: rgb(69, 59, 211);
-    max-width: 800px;
+    max-width: 400rem;
     margin: 2rem 21rem 2rem;
     padding: 25px;
-    border-radius: 30px;
+    border-radius: 25px;
     text-align: justify;
     align-content: center;
     flex-direction: row;
@@ -49,8 +49,9 @@ h2{
     color: aliceblue;
     background-color: rgb(117, 9, 144);
     border: solid 1px rgb(2, 6, 54) ;
-    border-radius: 5px;
-    margin: 2rem 41rem 2rem ;
+    border-radius: 10px;
+    margin-left: 45%;
+    margin-right: 55%;
     text-align: center;
     user-select: none;
     cursor:pointer;
