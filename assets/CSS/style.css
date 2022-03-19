@@ -42,27 +42,28 @@ h2{
     color: aliceblue;
 }
 
-.btm{
+.btn{
     align-items: center;
-    padding: 10px 08px;
-    width: 100px;
+    padding: 2%;
+    width: 10%;
     color: aliceblue;
     background-color: rgb(117, 9, 144);
     border: solid 1px rgb(2, 6, 54) ;
     border-radius: 5px;
-    margin: 2rem 43rem 2rem ;
+    margin: 2rem 41rem 2rem ;
     text-align: center;
     user-select: none;
     cursor:pointer;
     
 }
-.btm:hover{
+
+.btn:hover{
     background-color: rgb(69, 59, 211);
     transition: all 0.5s ease-in-out 0s;
 }
 
 img{
-    width: 50rem;
+    width: 100%;
 
 }
 
