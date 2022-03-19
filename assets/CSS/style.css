@@ -4,15 +4,76 @@
     margin: 0;
     font-family: Sansita Swashed,Arial, serif;
 }
-
-header img{
-    width: 100%;
+.banner{
+   width: 100%;
 }
-
-
-main{
-    margin: 0 10rem 0 10rem;
+header{
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 h1{
     text-align: center;
+    font-size: 6rem; 
+    font-family: Sansita Swashed,Arial, serif;
+}
+
+h2{
+
+    font-size: 2rem;
+    font-family: Sansita Swashed,Arial, serif;
+
+}
+
+.container{
+    align-items: center;
+    margin: 0,10rem,0,10rem;
+}
+
+.card{
+    background-color: rgb(69, 59, 211);
+    max-width: 800px;
+    margin: 2rem 21rem 2rem;
+    padding: 25px;
+    border-radius: 30px;
+    text-align: justify;
+    align-content: center;
+    flex-direction: row;
+    justify-content:space-around ;
+    color: aliceblue;
+}
+
+.btm{
+    align-items: center;
+    padding: 10px 08px;
+    width: 100px;
+    color: aliceblue;
+    background-color: rgb(117, 9, 144);
+    border: solid 1px rgb(2, 6, 54) ;
+    border-radius: 5px;
+    margin: 2rem 43rem 2rem ;
+    text-align: center;
+    user-select: none;
+    cursor:pointer;
+    
+}
+.btm:hover{
+    background-color: rgb(69, 59, 211);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+img{
+    width: 50rem;
+
+}
+
+
+
+.rodape a{
+    display: flex;
+    background-color: rgb(69, 59, 211);
+    justify-content: center;
+    font-family: Sansita Swashed,Arial, serif;
+    color: #ffffff;
+    margin-top: 0%;
+    text-decoration: none;
 }
